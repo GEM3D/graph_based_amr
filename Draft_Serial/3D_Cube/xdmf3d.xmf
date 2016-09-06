@@ -1,0 +1,160 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0">
+ <Domain>
+   <Grid Name="AMR0" GridType="Collection" CollectionType="Spatial">
+   <Grid Name="mesh0" GridType="Uniform">
+     <Topology TopologyType="3DSMesh" NumberOfElements="10 10 10"/>
+     <Geometry GeometryType="X_Y_Z">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/X0
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Y0
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Z0
+       </DataItem>
+     </Geometry>
+     <Attribute Name="Q" AttributeType="Scalar" Center="Node">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Q0
+       </DataItem>
+     </Attribute>
+   </Grid>
+   <Grid Name="mesh1" GridType="Uniform">
+     <Topology TopologyType="3DSMesh" NumberOfElements="10 10 10"/>
+     <Geometry GeometryType="X_Y_Z">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/X1
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Y1
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Z1
+       </DataItem>
+     </Geometry>
+     <Attribute Name="Q" AttributeType="Scalar" Center="Node">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Q1
+       </DataItem>
+     </Attribute>
+   </Grid>
+   <Grid Name="mesh2" GridType="Uniform">
+     <Topology TopologyType="3DSMesh" NumberOfElements="10 10 10"/>
+     <Geometry GeometryType="X_Y_Z">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/X2
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Y2
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Z2
+       </DataItem>
+     </Geometry>
+     <Attribute Name="Q" AttributeType="Scalar" Center="Node">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Q2
+       </DataItem>
+     </Attribute>
+   </Grid>
+   <Grid Name="mesh3" GridType="Uniform">
+     <Topology TopologyType="3DSMesh" NumberOfElements="10 10 10"/>
+     <Geometry GeometryType="X_Y_Z">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/X3
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Y3
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Z3
+       </DataItem>
+     </Geometry>
+     <Attribute Name="Q" AttributeType="Scalar" Center="Node">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Q3
+       </DataItem>
+     </Attribute>
+   </Grid>
+   <Grid Name="mesh4" GridType="Uniform">
+     <Topology TopologyType="3DSMesh" NumberOfElements="10 10 10"/>
+     <Geometry GeometryType="X_Y_Z">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/X4
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Y4
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Z4
+       </DataItem>
+     </Geometry>
+     <Attribute Name="Q" AttributeType="Scalar" Center="Node">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Q4
+       </DataItem>
+     </Attribute>
+   </Grid>
+   <Grid Name="mesh5" GridType="Uniform">
+     <Topology TopologyType="3DSMesh" NumberOfElements="10 10 10"/>
+     <Geometry GeometryType="X_Y_Z">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/X5
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Y5
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Z5
+       </DataItem>
+     </Geometry>
+     <Attribute Name="Q" AttributeType="Scalar" Center="Node">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Q5
+       </DataItem>
+     </Attribute>
+   </Grid>
+   <Grid Name="mesh6" GridType="Uniform">
+     <Topology TopologyType="3DSMesh" NumberOfElements="10 10 10"/>
+     <Geometry GeometryType="X_Y_Z">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/X6
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Y6
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Z6
+       </DataItem>
+     </Geometry>
+     <Attribute Name="Q" AttributeType="Scalar" Center="Node">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Q6
+       </DataItem>
+     </Attribute>
+   </Grid>
+   <Grid Name="mesh7" GridType="Uniform">
+     <Topology TopologyType="3DSMesh" NumberOfElements="10 10 10"/>
+     <Geometry GeometryType="X_Y_Z">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/X7
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Y7
+       </DataItem>
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Z7
+       </DataItem>
+     </Geometry>
+     <Attribute Name="Q" AttributeType="Scalar" Center="Node">
+       <DataItem Dimensions="10 10 10" NumberType="Float" Precision="4" Format="HDF">
+        xdmf3d.h5:/Q7
+       </DataItem>
+     </Attribute>
+   </Grid>
+   </Grid>
+ </Domain>
+</Xdmf>
