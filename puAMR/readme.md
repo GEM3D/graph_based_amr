@@ -1,9 +1,9 @@
 
-Parallel Adaotive Mesh Refinement using Unstructured Grid Connectivity Approach for Cartesian Domains
+Parallel Adaptive Mesh Refinement using Unstructured Grid Connectivity Approach for Cartesian Domains
 
   - Cartesian Processor Topology for Generation of the Initial Mesh
   - Usesd Zoltan (Sandia National Lab) for Grid Partitioning 
-  - The treeis implicit as all the modifications are done on the connectivity
+  - The tree is implicit as all the modifications are done on the connectivity
 
 # Required Libraries
 
